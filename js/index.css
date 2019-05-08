@@ -5,3 +5,15 @@
     z-index:-1;
     animation: fadeIn 0.5s linear;
 }
+.cenDiv{
+  
+    text-align:center;
+}
+.js-todoList{
+    list-style: none;
+}
+li span {
+    color:beige;
+    font-size: 25px;
+    margin : 10px;
+}

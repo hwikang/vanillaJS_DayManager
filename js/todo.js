@@ -32,7 +32,7 @@ function getList(text){
     const newId = toDos.length+1;
     li.id = newId;
     span.innerText = text;
-    btn.innerText = "buttooooon";
+    btn.innerText = "DONE";
     btn.addEventListener("click",deleteTodo)
     li.appendChild(span); li.appendChild(btn);
     todoList.appendChild(li);
@@ -61,6 +61,7 @@ function handleSubmit(){
     const inputVal = todoInput.value
     getList(inputVal);
     setTodo();
+    todoInput.value="";
 }
 
 function init(){
