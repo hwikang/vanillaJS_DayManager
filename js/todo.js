@@ -64,7 +64,7 @@ function handleSubmit(){
     todoInput.value="";
 }
 
-function init(){
+function init(){    
     loadTodos();
     todoForm.addEventListener("submit",handleSubmit)
     
